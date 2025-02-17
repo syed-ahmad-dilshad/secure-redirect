@@ -12,10 +12,11 @@ This repository contains `.htaccess` configurations for different website functi
 - [Caching and Compression](#caching-and-compression)
 - [URL Rewriting](#url-rewriting)
 - [Blocking Access to Specific Files](#blocking-access-to-specific-files)
-
+```
 ## HTTP to HTTPS Redirection
 
 To ensure that all traffic to your website is served over HTTPS, you can use the following `.htaccess` configuration:
+
 
 ```apache
 RewriteEngine On
